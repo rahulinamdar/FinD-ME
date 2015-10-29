@@ -17,6 +17,7 @@ phonecatControllers.controller('HomeCtrl', ['$scope', function ($scope) {
 	$scope.checked = false;
 	$scope.getStarted = function(){
 		console.log('hi');
+		//hides the slider
 		$('#slider1').hide();
 		$('#homesSCR').show();
 	};
